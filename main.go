@@ -148,7 +148,7 @@ func plotData(prices []float64, predictions []float64, symbol string) error {
 
 func main() {
 	myApp := app.New()
-	myWindow := myApp.NewWindow("Stock Analyzer")
+	myWindow := myApp.NewWindow("Stock Analyzer by LewdLillyVT")
 	myWindow.Resize(fyne.NewSize(800, 600))
 
 	stockEntry := widget.NewEntry()
